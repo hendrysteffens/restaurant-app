@@ -1,0 +1,53 @@
+page-home {
+
+  body{
+    margin:0px;
+  }
+
+  @mixin choice{
+    margin-top: 50%;
+    height: 45%;
+    width: 55%;
+    background-color: #454343;
+  }
+
+  .choice-add{
+    @include choice;
+    float: left;
+    border-radius: 0 50% 50% 0;
+    margin-left: -5%;
+  }
+
+  .choice-find{
+    @include choice;
+    float: right;
+    border-radius: 50% 0 0 50%;
+    margin-right: -5%;
+  }
+
+  .choice-icon{
+    font-size: 700%;
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    color:white;
+  }
+
+  .choice-find .choice-icon{
+    margin-right: -15%;  
+  }
+
+  .choice-add .choice-icon{
+    margin-left: -15%;  
+  }
+
+  img{
+    position: absolute;
+    top: -60%; bottom:0; left: 0; right:0;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+  }
+
+}

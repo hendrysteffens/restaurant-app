@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+    <button ion-button (click)="click()">Click</button>
+  <input [(ngModel)]="propriedade">
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="download.png">
+  <div class="choice-add">
+    <ion-icon  (click)="addRestaurant()" name="add" class="choice-icon"></ion-icon>
+  </div>
+  <div class="choice-find">
+    <ion-icon (click)="showRestaurant()" name="search" class="choice-icon"></ion-icon>
+  </div>
+  <h1>_OR_</h1>
+</ion-content>

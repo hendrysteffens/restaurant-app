@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.restaurantapp849048" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.restaurantapp849048" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" 
+xmlns:gap="http://phonegap.com/ns/1.0">
   <name>restaurant-app</name>
   <description>An awesome Ionic/Cordova app.</description>
   <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -36,8 +37,4 @@
   <plugin name="cordova-plugin-splashscreen" spec="~4.0.0"/>
   <plugin name="cordova-plugin-statusbar" spec="~2.2.0"/>
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
-  <vs:plugin name="plugin.google.maps">
-    <param name="API_KEY_FOR_ANDROID" value="AIzaSyDNTd1pu8T9K7KVDP3IjKzcCVEIacj6_y4" />
-    <param name="API_KEY_FOR_IOS" value="AIzaSyDNTd1pu8T9K7KVDP3IjKzcCVEIacj6_y4" />
-  </vs:plugin>
 </widget>

@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { AddRestaurant } from '../add-restaurant/add-restaurant';
-import { AddRestaurantInfo } from '../add-restaurant-info/add-restaurant-info';
 
 /*
 
@@ -41,11 +40,10 @@ export class HomePage {
   }
   
   ionViewDidLoad() {
-    console.log('Hello Salsicha Page');
+    console.log('Hello Page');
   }
   addRestaurant(){
-    //this.navCtrl.push(AddRestaurant);
-     this.navCtrl.push(AddRestaurantInfo);
+    this.navCtrl.push(AddRestaurant);
   }
   
   showRestaurant(){

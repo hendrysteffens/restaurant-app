@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, Platform } from 'ionic-angular';
-import {  GoogleMap, GoogleMapsEvent, GoogleMapsLatLng } from 'ionic-native';
 /*
   Generated class for the AddRestaurantInfo page.
 
@@ -12,7 +11,7 @@ import {  GoogleMap, GoogleMapsEvent, GoogleMapsLatLng } from 'ionic-native';
   templateUrl: 'add-restaurant-info.html'
 })
 export class AddRestaurantInfo {
-  map: GoogleMap;
+  //map: GoogleMap;
   constructor(public navCtrl: NavController, public platform: Platform) {
     platform.ready().then(() => {
             this.loadMap();
@@ -21,9 +20,9 @@ export class AddRestaurantInfo {
 
   loadMap(){
  
-        let location = new GoogleMapsLatLng(-34.9290,138.6010);
+        //let location = new GoogleMapsLatLng(-34.9290,138.6010);
  
-        this.map = new GoogleMap('map', {
+      /*  this.map = new GoogleMap('map', {
           'backgroundColor': 'white',
           'controls': {
             'compass': true,
@@ -43,7 +42,7 @@ export class AddRestaurantInfo {
             'zoom': 15,
             'bearing': 50
           }
-        });
+        });*/
 
   
 }
